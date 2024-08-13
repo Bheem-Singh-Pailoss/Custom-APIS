@@ -14,14 +14,14 @@ Ensure Python is installed on your system. Download and install Python from [pyt
 
 To get started, clone the project repository:
 ```bash
-git clone https://github.com/exoticaitsolutions/Tax-Overages-Lead-Generation-System.git
+git clone https://github.com/Bheem-Singh-Pailoss/Django-Multi-Auth.git
 ```
 
 ## Navigate to the Project Directory
 
 Change to the project directory:
 ```bash
-cd Tax-Overages-Lead-Generation-System
+cd Django-Multi-Auth
 ```
 
 
