@@ -35,21 +35,11 @@ Run the setup script to create a virtual environment, activate it, update pip, a
 setup.bat
 ```
 
-## Unix/MacOS/Linux :
-```bash
-bash setup.sh
-```
-
 ## Configuration
 
 To decrypt the .env file, use the following command:
 
 ## Windows:
-```bash
-gpg -d .env.gpg > .env
-```
-
-## Unix/MacOS/Linux :
 ```bash
 gpg -d .env.gpg > .env
 ```
@@ -63,14 +53,6 @@ Create and apply migrations to set up the database:
 python.exe  manage.py makemigrations api
 python.exe  manage.py migrate
 ```
-
-## Unix/MacOS/Linux :
-```bash
-python3 manage.py makemigrations api
-python3 manage.py migrate
-```
-
-
 ## Superuser Creation
 
 To create a superuser and assign permissions:
@@ -81,21 +63,14 @@ python.exe manage.py createsuperuser
 python.exe manage.py assign_superuser_permissions
 ```
 
-## Unix/MacOS/Linux :
-```bash
-python3 manage.py createsuperuser
-python3 manage.py assign_superuser_permissions
-```
 ## Run the Project
 Start the server:
 ## Windows:
 ```bash
 python.exe manage.py runserver
 ```
-## Unix/MacOS/Linux :
-```bash
-python3 manage.py runserver
-```
+
+
 
 ## Authentication
 The Authentication section encompasses processes for managing super user access, including:
